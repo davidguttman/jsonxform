@@ -1,0 +1,30 @@
+{
+  "name": "jsonxform",
+  "version": "0.0.0",
+  "description": "command line tool to transform objects in json arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidguttman/jsonxform.git"
+  },
+  "keywords": [
+    "json",
+    "transform",
+    "command",
+    "line"
+  ],
+  "author": "David Guttman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidguttman/jsonxform/issues"
+  },
+  "dependencies": {
+    "through": "~2.3.4",
+    "coffee-script": "~1.6.3",
+    "JSONStream": "~0.7.1"
+  },
+  "bin": "./bin/jsonxform"
+}
